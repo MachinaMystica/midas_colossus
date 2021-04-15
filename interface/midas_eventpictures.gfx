@@ -1,0 +1,17 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_evt_midas_planet_transmuted"
+		texturefile = "gfx/event_pictures/midas_planet_transmuted.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_evt_midas_star_map"
+		texturefile = "gfx/event_pictures/midas_star_map.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}

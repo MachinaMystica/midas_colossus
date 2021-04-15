@@ -1,0 +1,73 @@
+﻿l_english:
+
+### Planet Classes
+ pc_midas:0 "Golden World"
+ pc_midas_desc:0 "Dry, metallic world with a significant percentage of the planet's crust and mantle being composed of gold and other heavy elements. Such worlds are inhospitable but host to a treasure trove of industrial potential."
+ pc_midas_barren:0 "Golden Barren World"
+ pc_midas_barren_desc:0 "A planet almost entirely composed out of gold and other heavy elements. The lack of liquid water and nonexistent atmosphere make it uninhabitable to almost all forms of life."
+ pc_midas_city:0 "Golden Ecumenopolis"
+ pc_midas_city_desc:0 "World completely engulfed by urban-industrial sprawl. A pinnacle of decadence and wealth, even the streets are paved with gold."
+ pc_midas_relic:0 "Golden Relic World"
+ pc_midas_relic_desc:0 "A decadent, golden city once stretched across this entire world. Only ancient and abandoned ruins remain now, their original inhabitants long since departed."
+
+### Decisions
+ decision_midas_arcology_project:0 "$ap_arcology_project$"
+ decision_midas_arcology_project_effects:1 "Turns the planet into an §Y$pc_city$§!, increasing £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YResource Production§! and §YPop Growth§! and unlocking special £district£ §YArcology Districts§! at the expense of the planet's natural resources becoming §Rinaccessible§!, preventing all further construction of £district£ §YGenerator§!, §YMining§! and §YAgriculture Districts§!."
+ decision_midas_arcology_project_effects_short:2 "Increases £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YResource Production§! and §YPop Growth§!\nEnables £district£ §YArcology Districts§!\nDisables construction of £district£ §YGenerator§!, §YMining§! and §YAgriculture Districts§!"
+ decision_midas_arcology_project_requirements:0 "£trigger_no£ §RAll district slots on the planet must be filled with§! §Y$district_city_plural$§!"
+ decision_midas_arcology_project_desc:1 "An unceasing stretch of arcologies will unite the planet from pole to pole, creating one global megacity, one ecumenopolis."
+
+ decision_arcology_project_midas_relic:1 "Restore Ecumenopolis"
+ decision_arcology_project_midas_relic_effects:0 "$decision_arcology_project_effects$"
+ decision_arcology_project_midas_relic_effects_short:0 "$decision_arcology_project_effects_short$"
+ decision_arcology_project_midas_relic_desc:0 "This planet was once a vibrant, golden ecumenopolis. It would be a monumental task, but the planet could be rebuilt and restored to its former glory."
+
+### Events
+ midas_colossus.1301.name:0 "World Transmuted"
+ midas_colossus.1301.desc:0 "As [From.From.GetName] ceases unleashing the cataclysmic energies of a supernova, [From.GetName] gleams with a new light.\n\nAfter undergoing extensive heavy fusion, [From.GetName]'s crust and mantle are almost entirely composed of gold and other heavy elements. If there was life on the planet before, the hundred-billion-degree flood of energy has utterly erased it."
+ 
+ MIDAS_TREASURE_MAP_CAT:0 "A Glimmer in the Dark"
+ MIDAS_TREASURE_MAP_CAT_DESC:0 "Swirling about the asteroid field near [ROOT.planet.GetName] are the remains of a desiccated vessel, almost indistinguishable from its surroundings. The story of how it came to be here may be worth investigating."
+ midas.1310.name:0 "Treasure in the Sea of Stars"
+ midas.1310.desc:1 "After a thorough investigation, Science Officer [Root.GetName] reports back to us that the ruined vessel was once a pirate ship. While primitive and in a rather sorry state, the Captain’s Log had not degraded enough to render it inaccessible.\n\nThe log spoke of the pirate fleet’s quest for the legendary world of "§YEl Dorado§!," supposedly an Ecumenopolis made of solid gold and home to unimaginable treasure. The vessel was destroyed in a munity as they approached the system.\n\nFurther searching of the debris field revealed a small, golden orb clutched in the skeletal remains of a former crewman. The orb appears to be a primitive star map of some sort, but it is protected by some advanced encryption. If we wish to find the crew’s intended target, we will have to issue a special project to break the encryption."
+ midas.1310.a:0 "Prepare a special project. We will find this lost world."
+ midas.1310.b:0 "We have no time for these pirate tales."
+ MIDAS_TREASURE_MAP:0 "Star Map, Star Bright."
+ MIDAS_TREASURE_MAP_DESC:0 "We have prepared a special project to decode the stellar map and locate the treasure the pirates sought."
+ midas.1311.name:0 "Fumble and Fortune"
+ midas.1311.desc:1 "After decoding the star map, Science Officer [Root.GetName] was perplexed to find that the system indicated was on no known hyperlane. Careful and repeated tested revealed a previously undetected access route to the system. What treasures or dangers await; we have no idea. We should proceed with caution."
+ midas.1311.a:0 "Treasure awaits!"
+ midas.1311.b:0 "We will not pursue this further."
+ midas_treasure_planet_found:0 "Coordinates Explored"
+ midas_treasure_chain_title:0 "The Legend of El Dorado"
+ midas_treasure_chain_desc:0 "Following the trail of long dead pirates, we search for a lost world of treasure."
+ midas_treasure_planet_found:0 "Coordinates Explored"
+ midas_treasure_coordinates_poi:0 "Treasure Planet"
+ midas_treasure_coordinates_desc:0 "The star map has led us to these coordinates, the alleged home of a lost world of treasure."
+ midas.3112.name:0 "All that glitters..."
+ midas.3112.desc:1 "The great, glittering city world of §YEl Dorado§! lies before us, gleaming in the light of  §YGran Rey§!. The system appears to have been abandoned for millions of years, with little signs of even orbital debris remaining.\n\nThe system appears to be home to a great §YAncient Leviathan§!. Whether this beast had anything to do with the downfall of this forgotten people or simply took residence after their passing, we are unable to ascertain. What is certain is that further archaeological efforts will be unable to proceed until it is vanquished."
+ midas.3112.a:0 "Our Gold...!"
+ MIDAS_TREASURE_PLANET_CAT:0 "Streets Paved with Gold"
+ MIDAS_TREASURE_PLANET_CAT_DESC:0 "§YEl Dorado§! is in our grasp; a gilded mausoleum to a forgotten empire. Our research teams will seek to uncover what secrets of theirs remain."
+ midas.3113.name:0 "The Golden Touch"
+ midas.3113.desc:1 "Examining the preserved records found on §YEl Dorado§!, we have been able to determine that they were at one time a regional superpower in this section of the galaxy. Their empire was a mercantile powerhouse; perhaps one of the wealthiest the galaxy has ever seen.\n\nThe secrets of their fortune were found to be a series of gigaforges capable of producing heat in excess of that of the heart of most stars. With their great furnaces, the people of §YEl Dorado§! were capable of heavy nuclear fusion, and they were able to produce heavy elements on demand.\n\nUnfortunately, Science Officer [Root.GetName] was unable to locate any preserved specimen of these forges, and their methods of construction seem to have been a closely guarded secret. A small consolation prize; we were able to find a series of highly advanced economic theory books that will certainly aid our mercantile efforts."
+ midas.3113.a:0 "All that we touch is gold."
+ 
+
+### Technologies
+ tech_midas_heavy_fusion:0 "Industrial Heavy Fusion"
+ tech_midas_heavy_fusion_desc:1 "The process of fusion used for energy generation only results in lighter elements up to iron. With new industrial processes, we can now utilize superheated, heavy fusion to produce to produce broad spectrums of new elements."
+ tech_pk_midas:0 "Mass Transmutation"
+ tech_pk_midas_desc:1 "Unleashing energies similar to that of a supernova, entirely worlds can be transmuted into heavy elements en masse."
+
+### Fleet
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_MIDAS:0 "Preparing to transmute $PLANET|Y$"
+ MESSAGE_DESC_FOR_PLANET_KILLER_MIDAS:0 "was entirely transmuted by"
+
+### Components
+ PLANET_KILLER_MIDAS:0 "Mass Transmuter"
+ PLANET_KILLER_MIDAS_ACTION:0 "Transmute World"
+ PLANET_KILLER_MIDAS_DESC:0 "A terrifying flood of energy reaching over 100-billion-degrees is unleashed upon the planet, vaporizing all life and mass fusing heavy elements."
+ 
+### Modifiers
+ midas_golden_touch:0 "The Golden Touch"

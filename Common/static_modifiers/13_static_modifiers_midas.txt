@@ -1,0 +1,5 @@
+# The Golden Touch effect
+midas_golden_touch = {
+	trade_value_mult = 0.05
+	country_energy_produces_mult = 0.05
+}

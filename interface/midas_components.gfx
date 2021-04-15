@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_midas_transmuter"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_midas_transmuter.dds"
+	}
+}

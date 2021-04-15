@@ -1,0 +1,7 @@
+# Midas Colossus
+on_destroy_planet_with_PLANET_KILLER_MIDAS = {
+	events = {
+		midas_colossus.1300
+		planet_destruction.600 # frag holy world
+	}
+}

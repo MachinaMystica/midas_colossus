@@ -1,0 +1,32 @@
+MIDAS_TREASURE_MAP_CAT = {
+	desc = "MIDAS_TREASURE_MAP_CAT_DESC"
+	picture = "GFX_evt_space_debris"
+	level = 4
+	
+	spawn_chance = {
+		modifier = {
+			add = 3
+			is_asteroid = yes
+		}
+	}
+	max_once_global = yes
+	max_once = yes
+	on_success = midas.1310
+}
+
+MIDAS_TREASURE_PLANET_CAT = {
+	desc = "MIDAS_TREASURE_PLANET_CAT_DESC"
+	picture = "GFX_evt_ancient_records"
+	level = 5
+	
+	spawn_chance = {
+		modifier = {
+			add = 0 #Called in initializer
+		}
+	}
+
+	on_spawn = {
+	}
+	
+	on_success = midas.3113
+}
