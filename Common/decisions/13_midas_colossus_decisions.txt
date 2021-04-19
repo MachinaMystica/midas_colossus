@@ -104,6 +104,7 @@ decision_arcology_project_midas_relic = {
 			clear_deposits = yes
 			change_pc = pc_midas_city
 			add_deposit = d_former_relic_world
+			add_deposit = d_midas_gold_artifacts_half
 			planet_event = { id =  mega.201 }
 			while = {
 				count = 4

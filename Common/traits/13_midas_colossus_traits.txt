@@ -13,6 +13,7 @@ trait_pc_midas_preference = {
 	ai_weight = {
 		weight = 0
 	}
+}
 
 trait_pc_midas_city_preference = {
 	icon = "gfx/interface/icons/traits/trait_pc_ai_preference.dds"

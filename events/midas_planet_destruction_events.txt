@@ -325,7 +325,7 @@ country_event = {
 	}
 
 	option = {
-		name = Beautiful
+		name = midas_colossus.1301.a
 		trigger = {
 			NOR = {
 				has_valid_civic = civic_fanatic_purifiers

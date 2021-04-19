@@ -152,6 +152,7 @@ ship_event = {
 		}
 		
 	}
+
 	option = {
 		name = midas.1311.b
 	}
@@ -220,19 +221,18 @@ ship_event = {
 
     immediate = {
         owner = {
-         end_event_chain = "midas_treasure_chain"
+        	end_event_chain = "midas_treasure_chain"
         }
     }
 
 	option = {
 		name = midas.3113.a
-			owner = {
-				add_modifier = {
-					modifier = midas_golden_touch
-					days = -1
-				}
-				large_artifact_reward = yes
+		owner = {
+			add_modifier = {
+				modifier = midas_golden_touch
+				days = -1
 			}
+			large_artifact_reward = yes
 		}
 	}
 }

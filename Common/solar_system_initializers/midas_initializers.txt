@@ -46,20 +46,15 @@ midas_treasure_system = {
 				modifier = "high_gravity"
 				days = -1
 			}
-			set_deposit = d_collapsed_spire
-			add_deposit = d_massive_crevice
-			add_deposit = d_shattered_solar_array
-			add_deposit = d_flooded_reactor_pits
-			add_deposit = d_flooded_reactor_pits
-			add_deposit = d_crumbling_mining_tunnels
-			add_deposit = d_crumbling_mining_tunnels
+			relic_world_deposits = yes
+			add_deposit = d_midas_unexplored_ruins
 		}
 
 		moon = {
 			count = { min = 1 max = 4 }
 			size = { min = 6 max = 16 }
 			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 8
+			orbit_distance = { min = 12 max = 16 }
 			class = "pc_midas_barren"
 			init_effect = {
 				prevent_anomaly = yes

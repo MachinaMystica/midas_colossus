@@ -1,0 +1,84 @@
+## Possible Deposit Variables ##
+# resources, resource and amount
+# potential trigger (planet scope)
+# blocked_modifier - applied to planet only when deposit blocker has been cleared
+# constant_modifier - applied to planet always
+# blocker = <key/any/none> - default any
+# station = station class in orbit to gather
+
+###############################
+#   Midas Colossus Deposits   #
+###############################
+
+# Golden Relic World Blockers
+
+d_midas_unexplored_ruins = {
+	time = 480
+	icon = d_midas_unexplored_ruins
+	
+	is_for_colonizeable = yes
+	category = deposit_cat_rare_blocker
+	
+	potential = { always = no }
+	
+	planet_modifier = { 
+		planet_max_districts_add = -1
+	}
+
+	use_weights_for_blocker_swap_types = no
+
+	blocker_swap_types = {
+		d_midas_gold_artifacts
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 2000
+		}
+	}
+}
+
+# Golden Relic World Deposits
+
+d_midas_gold_artifacts = {
+	is_for_colonizeable = yes
+	icon = d_midas_gold_artifacts
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			minor_artifacts = 0.1
+		}
+	}
+
+	planet_modifier = { 
+		planet_jobs_society_research_produces_mult = 0.10
+	}
+
+}
+
+# Golden Ecumenopolis Deposits
+
+d_midas_gold_artifacts_half = {
+	is_for_colonizeable = yes
+	icon = d_midas_gold_artifacts_half
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			minor_artifacts = 0.05
+		}
+	}
+
+	planet_modifier = { 
+		planet_jobs_society_research_produces_mult = 0.05
+	}
+
+}
